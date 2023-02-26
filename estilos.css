@@ -1,0 +1,113 @@
+* {
+    font-family: 'Tilt Neon', cursive;
+}
+
+body {
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+header {
+    text-align: center;
+    color: #2596be;
+}
+
+h3 {
+    text-align: center;
+}
+
+/* coisas do nav */
+nav {
+    text-align: center ;
+}
+
+nav p {
+    background-color: lightblue;
+}
+
+footer {
+    text-align: center;
+}
+
+a:link {
+    color: black;
+}
+  
+a:visited {
+    color: blue;
+}
+  
+a:hover {
+color: green
+}
+  
+a:active {
+    color: grey;
+}
+
+/* Emojis do nav */
+
+#intro::before {
+    content: "🏡 ";
+}
+
+#local::before{
+    content: "🗺 ";
+}
+
+#multimedia::before{
+    content: "📷 ";
+}
+
+#info::before {
+    content: "ℹ ";
+}
+
+#quizz::before {
+    content: "❓ ";
+}
+
+#htmlcss::before{
+    content: "💻 ";
+}
+
+/* Coisas do Quizz */
+
+.perguntas_inicio {
+    background-color: beige;
+}
+
+.perguntas {
+    background-color: lightcyan;
+}
+
+.quizz {
+    background-color: cornflowerblue;
+}
+
+legend {
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+[src = "images/wordcloud.png"] {
+    border: 4px solid blue;
+}
+
+[src="https://www.youtube.com/embed/wq_4hrzkk8U"] {
+    border: 4px solid green;
+}
+
+input{
+    display: block;
+}
+
+.poema {
+    text-align: center ;
+}
+
+.poema_escrito{
+    font-style: italic;
+    font: 14px;
+}

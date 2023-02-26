@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt">
+    <link rel="stylesheet" href="estilos.css">
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
         <title>Oslo</title>
         <meta charset="utf-8">
         <meta name="author" content="Ana Beatriz Pires">
@@ -8,25 +12,44 @@
         <meta name="keywords" content="oslo">
     </head>
     <body>
-        <h1>Oslo</h1>
-        <img src="images/oslo.jpg" alt="cidade de oslo perto de um corpo de água">
-        <br>
-        <p>
-            <b><a href="index.html">Introdução</a></b>
-            <a href="local.html">Local</a>
-            <a href="multimedia.html">Multimedia</a>
-            <a href="info.html">Informação</a>
-        </p>
-        <h2>Introdução</h2>
-        <p>Capital da Noruega</p>
-        <p>
-            <ol>
-                <li>A página de <a href="index.html">introdução</a> apresenta-nos a cidade</li>
-                <li>A página local mostra o <a href="local.html">local</a></li>
-                <li>A página <a href="multimedia.html">multimedia</a> mostra-nos um video da cidade</li>
-                <li>A página de <a href="info.html">informação</a> dá mais a conhecer sobre a cidade</li>
-            </ol>
-        </p>
-        <img src="images/wordcloud.png" alt="worldcloud oslo"> 
+        <header>
+            <h1>Oslo</h1>
+            <figure>
+                <img src="images/oslo.jpg" alt="cidade de oslo perto de um corpo de água">
+            </figure>
+            <br>
+        </header>
+        <nav>
+            <p>
+                <b><a href="index.html" id="intro">Introdução</a></b>
+                <a href="local.html" id="local">Local</a>
+                <a href="multimedia.html" id="multimedia">Multimedia</a>
+                <a href="info.html" id="info">Informação</a>
+                <a href="quizz.html" id="quizz">Quizz</a>
+                <a href="html5-css.html" id="htmlcss">HTML5 e CSS</a>
+            </p>
+        </nav>
+        <main>
+            <section class="inicio">
+               <h3>Introdução </h3>
+               <p>Capital da Noruega</p> 
+            </section>
+            <section>
+                <p>
+                    <ol>
+                        <li>A página de <a href="index.html">introdução</a> apresenta-nos a cidade</li>
+                        <li>A página local mostra o <a href="local.html">local</a></li>
+                        <li>A página <a href="multimedia.html">multimedia</a> mostra-nos um video da cidade</li>
+                        <li>A página de <a href="info.html">informação</a> dá mais a conhecer sobre a cidade</li>
+                    </ol>
+                </p>
+            </section>
+            <figure>
+                <img src="images/wordcloud.png" alt="worldcloud oslo">
+            </figure>
+        </main>
+        <footer>
+            Ana Beatriz Pires, a22109141, Universidade Lusófona de Humanidades e Tecnologias, 2022/2023
+        </footer>
     </body>
 </html>

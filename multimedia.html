@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt">
+    <link rel="stylesheet" href="estilos.css">
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
         <title>Oslo</title>
         <meta charset="utf-8">
         <meta name="author" content="Ana Beatriz Pires">
@@ -8,16 +12,61 @@
         <meta name="keywords" content="oslo">
     </head>
     <body>
-        <h1>Oslo</h1>
-        <img src="images/oslo.jpg" alt="cidade de oslo perto de um corpo de água">
-        <br>
-        <p>
-            <a href="index.html">Introdução</a>
-            <a href="local.html">Local</a>
-            <b><a href="multimedia.html">Multimedia</a></b>
-            <a href="info.html">Informação</a>
-        </p>
-        <h2>Multimedia</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/wq_4hrzkk8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <header>
+            <h1>Oslo</h1>
+            <figure>
+                <img src="images/oslo.jpg" alt="cidade de oslo perto de um corpo de água">
+            </figure>
+            <br>
+        </header>
+        <nav>
+            <p>
+                <a href="index.html" id="intro">Introdução</a>
+                <a href="local.html" id="local">Local</a>
+                <b><a href="multimedia.html" id="multimedia">Multimedia</a></b>
+                <a href="info.html" id="info">Informação</a>
+                <a href="quizz.html" id="quizz">Quizz</a>
+                <a href="html5-css.html" id="htmlcss">HTML5 e CSS</a>
+            </p>
+        </nav>
+        <main>
+            <section>
+                <h3>Multimedia</h3>
+                <p>
+                    <a href="#video">Video</a>
+                    <a href="#fotografias">Fotografias</a>
+                    <a href="#poema">Poema</a>
+                </p>
+                <h3 id="video">Vídeo</h3>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wq_4hrzkk8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </section>
+            <section>
+                <h3 id="fotografias">Fotografias</h3>
+                <p>
+                    <picture>
+                        <a href="images/barcoOslo_grande.jpg" target="foto"><img src="images/barcoOslo_pequena.jpg" alt="barco Oslo"></a>
+                        <a href="images/operaOslo_grande.png" target="foto"><img src="images/operaOslo_pequena.png" alt="opera Oslo"></a>
+                        <a href="images/parqueOslo_grande.jpg" target="foto"><img src="images/parqueOslo_pequeno.jpg" alt="parque Oslo"></a>
+                        <iframe src="" frameborder="0"></iframe>
+                    </picture>
+                </p>
+            </section>
+            <section class="poema">
+                <h3 id="poema">Poema</h3>
+                <h4>Emily Dickinson</h4>
+                <p class="poema_escrito">
+                    A água se ensina pela sede; <br>
+                    A terra, por oceanos navegados; <br>
+                    O êxtase, pela aflição; <br>
+                    A paz, pelos combates narrados; <br>
+                    O amor, pela cinza da memória <br>
+                    E, pela neve, os pássaros. <br>
+                </p>
+            </section>
+        </main>
+        <footer>
+            Ana Beatriz Pires, a22109141, Universidade Lusófona de Humanidades e Tecnologias, 2022/2023
+        </footer>
     </body>
 </html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <link rel="stylesheet" href="estilos.css">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+        <title>Oslo</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Ana Beatriz Pires">
+        <meta name="description" content="Website sobre Oslo">
+        <meta name="keywords" content="oslo">
+    </head>
+    <body>
+        <header>
+            <h1>Oslo</h1>
+            <figure>
+                <img src="images/oslo.jpg" alt="cidade de oslo perto de um corpo de água">
+            </figure>
+            <br>
+        </header>
+        <nav>
+            <p>
+                <a href="index.html" id="intro">Introdução</a>
+                <a href="local.html" id="local">Local</a>
+                <a href="multimedia.html" id="multimedia">Multimedia</a>
+                <a href="info.html" id="info">Informação</a>
+                <b><a href="quizz.html" id="quizz">Quizz</a></b>
+                <a href="html5-css.html" id="htmlcss">HTML5 e CSS</a>
+            </p>
+        </nav>
+            <main>
+                <section>
+                    <h3>Quizz</h3>
+                     <p>Nesta página vamos testar o teu conhecimento sobre a cidade de Oslo!</p> 
+                </section>
+                <section>
+                    <form method="POST" action="mailto: abmpires1999@gmail.com" enctype="multipart/form-data">
+                        <fieldset class="quizz">
+                            <legend>Quizz sobre Oslo</legend>
+                            <fieldset class="perguntas_inicio">
+                                <p>Nome:<span style="color:red">*</span> <input type="text" name="nome" autocomplete="off" size ="15" autofocus placeholder="Insira aqui" required></p>
+                                <p>Apelido:<span style="color:red">*</span> <input type="text" name="apelido" autocomplete="off" size ="15" autofocus placeholder="Insira aqui" required></p>
+                                <p>Telefone:<span style="color:red">*</span> <input type="text" name="telefone" autocomplete="off" size ="20" autofocus placeholder="Insira aqui" pattern="[0-9]+" required></p>
+                            </fieldset>
+                            <fieldset class="perguntas">
+                                <legend>Perguntas:</legend>
+                                <p>Qual é o nome da cidade? <input type="text" name="nome da cidade" id="" autofocus size="10" placeholder="Insira aqui" maxlength="20"></p>
+                                <p>Onde fica esta cidade?
+                                    <br>
+                                    <input type="radio" id="Noruega" name="local" value="Noruega">
+                                    <label for="Noruega">Noruega</label><br>
+                                    <input type="radio" id="Dinamarca" name="local" value="Dinamarca">
+                                    <label for="Dinamarca">Dinamarca</label><br>
+                                    <input type="radio" id="Holanda" name="local" value="Holanda">
+                                    <label for="Holanda">Holanda</label><br>
+                                </p>
+                                <p>
+                                    Pelo que é que Oslo é conhecida?
+                                    <input type="checkbox" name="caracteristica" id="museus" value="Museus">
+                                    <label for="museus">Museus</label>
+                                    <input type="checkbox" name="caracteristica" id="areasVerdes" value="Áreas Verdes">
+                                    <label for="areasVerdes">Áreas Verdes</label>
+                                    <input type="checkbox" name="caracteristica" id="montanhasRussas" value="Montanhas Russas">
+                                    <label for="montanhasRussas">Montanhas Russas</label>
+                                </p>
+                                <p>
+                                    Quando foram os ultimos Jogos Olímpicos de Inverno nesta cidade?
+                                    <input type="date" name="jogosOlimpicos" id="jogosOlimpicos">
+                                </p>
+                                <p> Qual a cor que mais representa cidade?
+                                    <input type="color" name="cor" id="cor" list="cores">
+                                    <datalist id="cores">
+                                        <option>#ff0000</option>
+                                        <option>#0000ff</option>
+                                        <option>#00ff00</option>
+                                        <option>#ffff00</option>
+                                        <option>#00ffff</option>
+                                      </datalist>
+                                </p>
+                                <p>
+                                    Nesta escala, qual a temperatura habitual da cidade?
+                                    <br>
+                                    <input type="range" id="temp" name="temp"/>
+                                </p>
+                                <p>
+                                    Em que ano é que a cidade foi fundada?
+                                    <input type="number" name="ano" id="ano" min="1000" max="2000">
+                                </p>
+                                <p>
+                                    Quais os tipos de comida mais famosos desta cidade? 
+                                    <select id="comida" name="comida" size="5" multiple>
+                                        <option value="Peixe">Peixe</option>
+                                        <option value="Fruta">Fruta</option>
+                                        <option value="Pastelaria">Pastelaria</option>
+                                        <option value="Fast Food">Fast Food</option>
+                                        <option value="Frutos do mar">Frutos do mar</option>
+                                    </select>
+                                </p>
+                                <p>
+    
+                                </p>
+                                <p>
+                                    Deixa-me a tua opinião sobre o quizz!
+                                    <textarea name="comentario" id="comentario" cols="64" rows="10"></textarea>
+                                </p>
+                                <p>
+                                    <input type="image" src="images/submit.png" alt="Submit" width="32" height="32" id="enviar">
+                                </p>
+                            </fieldset>
+                        </fieldset>
+                    </form>
+                </section>
+            </main>
+            <footer>
+                Ana Beatriz Pires, a22109141, Universidade Lusófona de Humanidades e Tecnologias, 2022/2023
+            </footer>
+    </body>
+</html>
