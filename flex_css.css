@@ -1,0 +1,133 @@
+* { 
+    box-sizing: border-box; 
+    padding: 0; 
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+.viajar {
+    height: 50vh;
+    width: 100vw;
+    background-color: #2C3E50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+
+.viajar > p > span {
+    font-size: 3rem;
+}
+
+.viajar > p {
+    color: white;
+}
+
+.imagem {
+    position: relative;
+}
+
+.imagem > img {
+    height: 100%;
+    width: 100%;
+}
+
+.imagem  > p {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: #191970;
+    font-weight: 600;
+}
+
+.capitais {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: space-around;
+    background-color: #E6E6FA;
+    padding: 50px;  
+}
+
+.capitais > div {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px gray;
+    margin: 10px;
+}
+
+.capitais img {
+    border-radius: 20px 0 0 20px;
+    height: 100%;
+}
+
+.capitais div div:last-child {
+    width: 150px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 0 20px 20px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulos {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulos div {
+    background-color:#2C3E50;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+    border-radius: 50px;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulos > div > img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50px;
+}
+#img1:hover, #img2:hover, #img3:hover, #img4:hover  {
+    visibility: hidden;
+}
+
+header {
+    position: sticky ;
+    top: 0;
+    z-index: 1;
+
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+header > nav {
+    padding-top: 10px;
+}
+
+header > nav > a {
+    padding: 20px;
+    text-decoration: none;
+    color: #2727b3
+}
+
+header > nav > a:hover {
+    color: #a9a9af;
+    font-weight: bold;
+}
