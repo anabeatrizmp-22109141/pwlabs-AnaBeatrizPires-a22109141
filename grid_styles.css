@@ -1,0 +1,115 @@
+
+* {
+    font-family: 'Kanit', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: #000000;
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu > a:hover {
+    color: #3d3d3d;
+    font-weight: bold;
+}
+
+.menu {
+    background-color: #150e77;
+    display: block;
+}
+
+#pepsimax {
+    background-image: url("https://pepsimax.pt/images/default-source/products/pepsimax_bg_1366x358.jpg?sfvrsn=d472fe74_2");
+    color:white;
+    display: flex;
+    align-items: right;
+    justify-content: space-evenly;
+}
+
+#pepsimax {
+    background-image: url("https://pepsimax.pt/images/default-source/products/pepsimax_bg_1366x358.jpg?sfvrsn=d472fe74_2");
+    color:white;
+    display: flex;
+    align-items: right;
+    justify-content: space-evenly;
+}
+
+#pepsi {
+    background-image: url("https://www.teahub.io/photos/full/243-2430558_pepsi-can-blue-background.jpg");
+    background-size: contain;
+    background-position: -70%;
+    color:white;
+    display: flex;
+    align-items: right;
+    justify-content: space-evenly;   
+}
+
+#diet {
+    background-image: url("https://www.pngkey.com/png/detail/75-757387_diet-pepsi-cans-24x330ml.png");
+    background-size: contain;
+    background-position: -50%;
+    color:black;
+    font-weight: bolder;
+    display: flex;
+    align-items: right;
+    justify-content: space-evenly;   
+}
+
+#cherry {
+    background-image: url("https://static.wixstatic.com/media/0d2cf6_ff7fbc551476418d9e04c83201831527~mv2.jpg/v1/fill/w_655,h_655,al_c,q_85/0d2cf6_ff7fbc551476418d9e04c83201831527~mv2.jpg");
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: 5%;
+    color:white;
+    font-weight: bolder;
+    display: flex;
+    align-items: right;
+}
+
+.main > div {
+    text-align: center;
+    padding-left: 50% ;
+    padding-right: 20%;
+    padding-top: 10%;
+}
+
+.main > div > h1 {
+    padding-top: 30px;
+}
+
+.right {
+    background-image: url("https://img.freepik.com/free-photo/black-concrete-wall_24972-1046.jpg");
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.footer {
+    display:flex;
+    background-color: #000000;
+    font-size: small;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
