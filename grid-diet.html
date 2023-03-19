@@ -31,6 +31,28 @@
         'menu right main'
         'footer footer footer';
     }
+
+    @media(max-width: 600px) {
+
+        .grid-container-pepsi {
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+            display:grid;
+            grid-template-areas:
+            'header'
+            'menu '
+            'main'
+            'right'
+            'footer';
+        } 
+
+        .menu a {
+        font-size: 0.7rem;
+        padding: 3%;
+        display: inline;
+        }
+    }
     </style>
     <div class="grid-container-pepsi">
         <div class="header">

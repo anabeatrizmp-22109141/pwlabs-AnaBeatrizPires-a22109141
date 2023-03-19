@@ -36,6 +36,8 @@
 
 #pepsimax {
     background-image: url("https://pepsimax.pt/images/default-source/products/pepsimax_bg_1366x358.jpg?sfvrsn=d472fe74_2");
+    background-repeat: no-repeat;
+    background-size: cover;
     color:white;
     display: flex;
     align-items: right;
@@ -52,8 +54,8 @@
 
 #pepsi {
     background-image: url("https://www.teahub.io/photos/full/243-2430558_pepsi-can-blue-background.jpg");
-    background-size: contain;
-    background-position: -70%;
+    background-repeat: no-repeat;
+    background-size: cover;
     color:white;
     display: flex;
     align-items: right;
@@ -62,8 +64,8 @@
 
 #diet {
     background-image: url("https://www.pngkey.com/png/detail/75-757387_diet-pepsi-cans-24x330ml.png");
+    background-repeat: no-repeat;
     background-size: contain;
-    background-position: -50%;
     color:black;
     font-weight: bolder;
     display: flex;

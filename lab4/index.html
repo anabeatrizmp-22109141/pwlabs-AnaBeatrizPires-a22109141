@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oslo</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Ana Beatriz Pires">
+    <meta name="description" content="Website sobre Oslo">
+    <meta name="keywords" content="oslo">
+    <style>
+        header {  grid-area: header;}
+        main {  grid-area: main;}
+        footer {grid-area: footer;}
+
+        .grid-container {
+            display: grid;
+
+            min-height: 100vh;
+            grid-template-rows: auto 3fr auto;
+
+            grid-template-areas:
+            'header header header'
+            'main main main'
+            'footer footer footer';
+        }
+    </style>
+</head>
+<body class="grid-container" id="heropage">
+    <header id="hero-header">
+        <div id="titulo">OSLO</div>
+        <nav>
+            <a href="index.html">Hero Page</a>
+            <a href="video.html">Video</a>
+            <a href="paralax.html">Paralax</a>
+            <a href="animacoes.html">Animacoes</a>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    Labs
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="pwlabs-AnaBeatrizPires-a22109141\index.html">Lab1 - Cidade</a>
+                    <a href="pwlabs-AnaBeatrizPires-a22109141\flex.html">Lab2 - Flex</a>
+                    <a href="pwlabs-AnaBeatrizPires-a22109141\grid-pepsimax.html">Lab3 - Grid </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="frase-motivacional">
+        Tudo está bem quando ninguém olha para o CSS <br> <br>
+        Sim, isto é motivacional.
+    </main>
+    <footer id="hero-footer">
+        Ana Beatriz Pires, a22109141, Universidade Lusófona de Humanidades e Tecnologias, 2022/2023
+    </footer>
+</body>
+</html>
